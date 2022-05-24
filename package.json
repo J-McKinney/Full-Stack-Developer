@@ -2,6 +2,7 @@
   "name": "full-stack-developer",
   "version": "0.1.0",
   "main": "dist/index.js",
+  "homepage": "https://j-mckinney.github.io/Full-Stack-Developer/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
