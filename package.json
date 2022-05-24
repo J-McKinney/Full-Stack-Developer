@@ -1,7 +1,6 @@
 {
   "name": "full-stack-developer",
   "version": "0.1.0",
-  "homepage": "https://j-mckinney.github.io/Full-Stack-Developer/",
   "main": "dist/index.js",
   "private": true,
   "dependencies": {
