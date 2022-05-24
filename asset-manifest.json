@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/full-stack-developer/static/css/main.073c9b0a.css",
-    "main.js": "/full-stack-developer/static/js/main.e9e99b65.js",
-    "static/media/logo.svg": "/full-stack-developer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/full-stack-developer/index.html",
-    "main.073c9b0a.css.map": "/full-stack-developer/static/css/main.073c9b0a.css.map",
-    "main.e9e99b65.js.map": "/full-stack-developer/static/js/main.e9e99b65.js.map"
+    "main.css": "/Full-Stack-Developer/static/css/main.073c9b0a.css",
+    "main.js": "/Full-Stack-Developer/static/js/main.9d17c85c.js",
+    "static/media/logo.svg": "/Full-Stack-Developer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Full-Stack-Developer/index.html",
+    "main.073c9b0a.css.map": "/Full-Stack-Developer/static/css/main.073c9b0a.css.map",
+    "main.9d17c85c.js.map": "/Full-Stack-Developer/static/js/main.9d17c85c.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.e9e99b65.js"
+    "static/js/main.9d17c85c.js"
   ]
 }
