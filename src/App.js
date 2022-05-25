@@ -5,8 +5,8 @@ function App() {
   return (
     <>
       <div className="App">
-      <Landing />
-    </div>
+        <Landing />
+      </div>
     </>
   );
 }

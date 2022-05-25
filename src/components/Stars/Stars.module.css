@@ -1,0 +1,48 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #000000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  position: absolute;
+  /* Full Screen Shot */
+  /* top: 0; */
+  /* Full Screen Shot */
+  /* left: 0; */
+  
+  /* Small Screen Shot */
+  top: 50;
+  /* Small Screen Shot */
+  left: 50;
+  z-index: -1;
+  border-radius: 50px; /* Disable This When Using Full Screen */
+}
+
+.starWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.textBox {
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 7px;
+  word-spacing: 12px;
+  text-transform: uppercase;
+  color: rgb(238, 238, 238);
+}
+
+.heading {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
