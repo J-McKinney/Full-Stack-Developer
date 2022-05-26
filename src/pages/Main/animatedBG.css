@@ -1,10 +1,17 @@
 .block {
+  /* Pretty cool effects if you take position out all together lol */
   position: absolute;
-  top: 41vh;
-  left: 50vw;
-  width: 5px;
-  height: 5px;
-  background-image: url("../../logo.svg");
-  background-repeat: no-repeat;
-  opacity: 0.3;
+  width: 620px;
+  height: 50px;
+  background: hsla(167, 76%, 64%, 0.5);
+  border-width: 1px;
+  border-radius: 6px;
+}
+
+.block:hover {
+  transition: 0.2s ease-in-out;
+  background: #ffffff;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #5ce9cb;
 }
