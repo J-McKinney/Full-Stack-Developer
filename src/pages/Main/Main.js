@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
+import Navbar from "../../components/Navbar/Navbar";
 import { Transition } from "react-transition-group";
 import anime from "animejs";
 import Style from "./Main.module.css";
@@ -60,13 +61,14 @@ const Main = () => {
       });
     };
     animateBlocks();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <>
+    <Navbar />
       <div className={Style.introWrapper}>
-        <Transition in={inProp1} timeout={4000}>
+        <Transition in={inProp1} timeout={3900}>
           {(state) => (
             <div
               style={{
@@ -91,7 +93,7 @@ const Main = () => {
       </div>
 
       <div className={Style.mainWrapper}>
-        <Transition in={inProp2} timeout={4200}>
+        <Transition in={inProp2} timeout={4000}>
           {(state) => (
             <div
               style={{
