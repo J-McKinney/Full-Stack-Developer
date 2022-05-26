@@ -1,0 +1,36 @@
+.aboutWrapper {
+  margin-top: 1000px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.aboutContainer {
+  text-align: center;
+  width: 100%;
+  min-height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.aboutRow {
+  text-align: center;
+  width: 100%;
+  min-height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.aboutCol {
+  text-align: center;
+  width: 100%;
+  min-height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

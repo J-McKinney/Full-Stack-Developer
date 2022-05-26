@@ -1,52 +1,4 @@
-.introWrapper {
-  position: absolute;
-}
-
-#BGWrapper {
-  background: #0a192f;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  /* min-width: 100vw; */
-  width: 98.93vw;
-}
-
-#BGContainer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.App {
-  z-index: 100;
-  width: 620px;
-  border-radius: 6px;
-}
-
-.AppHeader {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-}
-
-.code {
-  font-weight: 800;
-  color: white;
-  -webkit-text-stroke: 2px black;
-  z-index: 100;
-}
-
-
-.heroWrapper {
+.deezWrapper {
   background-color: #0a192f;
   text-align: center;
   width: 100%;
@@ -56,7 +8,7 @@
   color: white;
 }
 
-.heroContainer {
+.deezContainer {
   text-align: center;
   width: 100%;
   min-height: auto;
@@ -70,7 +22,7 @@
   box-shadow: 30px 30px 82px #040d1b, -30px -30px 59px #122746;
 }
 
-.heroRow {
+.deezRow {
   text-align: center;
   width: 100%;
   min-height: auto;
@@ -84,7 +36,7 @@
   box-shadow: 30px 30px 82px #040d1b, -30px -30px 59px #122746;
 }
 
-.heroCol {
+.deezCol {
   text-align: center;
   width: 100%;
   min-height: auto;
