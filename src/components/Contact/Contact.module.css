@@ -1,6 +1,7 @@
-.experienceWrapper {
+.contactWrapper {
   /* margin-top: 1000px; */
-  height: 100vh;
+  /* min-height might need to change */
+  height: 70vh;
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -9,7 +10,7 @@
   color: white;
 }
 
-.experienceContainer {
+.contactContainer {
   text-align: center;
   width: 100%;
   min-height: auto;
@@ -18,7 +19,7 @@
   align-items: center;
 }
 
-.experienceRow {
+.contactRow {
   text-align: center;
   width: 100%;
   min-height: auto;
@@ -27,7 +28,7 @@
   align-items: center;
 }
 
-.experienceCol {
+.contactCol {
   text-align: center;
   width: 100%;
   min-height: auto;

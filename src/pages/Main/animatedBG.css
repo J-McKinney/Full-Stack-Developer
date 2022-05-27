@@ -3,7 +3,8 @@
   position: absolute;
   width: 620px;
   height: 50px;
-  background: hsla(167, 76%, 64%, 0.5);
+  background: #5de9cb80;
+  /* background: #3586ff; */
   border-width: 1px;
   border-radius: 6px;
 }

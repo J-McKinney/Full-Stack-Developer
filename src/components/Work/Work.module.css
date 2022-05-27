@@ -1,0 +1,38 @@
+.workWrapper {
+    /* margin-top: 1000px; */
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .workContainer {
+    text-align: center;
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .workRow {
+    text-align: center;
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .workCol {
+    text-align: center;
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  

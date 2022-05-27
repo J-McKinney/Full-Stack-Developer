@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
+import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
-import Navbar from "../../components/Navbar/Navbar";
+import Experience from "../../components/Experience/Experience";
+import Work from "../../components/Work/Work";
+import Footer from "../../components/Footer/Footer";
 import { Transition } from "react-transition-group";
 import anime from "animejs";
 import Style from "./Main.module.css";
@@ -66,7 +69,7 @@ const Main = () => {
 
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div className={Style.introWrapper}>
         <Transition in={inProp1} timeout={3900}>
           {(state) => (
@@ -106,6 +109,9 @@ const Main = () => {
           )}
         </Transition>
         <About />
+        <Experience />
+        <Work />
+        <Footer />
       </div>
     </>
   );
