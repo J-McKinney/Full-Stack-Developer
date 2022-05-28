@@ -1,15 +1,22 @@
 .heroWrapper {
-  background-color: #0a192f;
-  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
   padding: 50px;
+  background-color: #0a192f;
   z-index: 1000;
 }
 
 .heroContainer {
   min-height: auto;
-  margin-top: 20vh;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 13px 13px 18px #040d1b, -13px -13px 15px #122746,
+  inset 13px 13px 18px #040d1b, inset -13px -13px 19px #122746;
 }
 
 .heroRow {
@@ -18,7 +25,6 @@
 
 .heroCol {
   min-height: auto;
-  align-items: center;
   padding-left: 150px;
 }
 

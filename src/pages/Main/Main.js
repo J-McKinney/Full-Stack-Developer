@@ -10,6 +10,13 @@ import anime from "animejs";
 import Style from "./Main.module.css";
 import "./animatedBG.css";
 
+const navlinks = [
+  { name: "About", to: "#/about" },
+  { name: "Experience", to: "#/experience" },
+  { name: "Work", to: "#/work" },
+  { name: "Contact", to: "#/contact" },
+];
+
 const duration1 = 300;
 const duration2 = 600;
 
@@ -69,7 +76,8 @@ const Main = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar links={navlinks} />
+      {/* <Navbar /> */}
       <div className={Style.introWrapper}>
         <Transition in={inProp1} timeout={3900}>
           {(state) => (
@@ -83,9 +91,9 @@ const Main = () => {
                 <div id={Style.BGContainer} className="BGContainer">
                   <div className={Style.App}>
                     <header className={Style.AppHeader}>
-                      <h2 className={Style.code}>
-                        Jesse McKinney - Software Engineer
-                      </h2>
+                      <h3 className={Style.code}>
+                        BRING YOUR IDEAS TO LIFE WITH CODE.
+                      </h3>
                     </header>
                   </div>
                 </div>

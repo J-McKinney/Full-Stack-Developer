@@ -1,37 +1,82 @@
 .aboutWrapper {
-  /* margin-top: 1000px; */
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
-  text-align: center;
-  justify-content: center;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
   color: white;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutContainer {
-  text-align: center;
   width: 100%;
   min-height: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 13px 13px 18px #040d1b, -13px -13px 15px #122746,
+    inset 13px 13px 18px #040d1b, inset -13px -13px 19px #122746;
 }
 
 .aboutRow {
-  text-align: center;
   width: 100%;
   min-height: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  padding: 0 50px;
 }
 
 .aboutCol {
-  text-align: center;
-  width: 100%;
+  margin-right: 10px;
   min-height: auto;
+}
+
+.card {
+  background-color: #0a192f;
+  border: none;
+}
+
+.cardTitle {
+  padding: 5px 0;
+}
+
+.title {
+  color: #5ce9cb;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.hr {
+  background-color: #5ce9cb;
+  color: #5ce9cb;
+}
+
+.cardText {
+  padding: 5px 0;
+  color: #8892b0;
+}
+
+.myPicCol {
+  margin-left: 10px;
+  min-height: auto;
+  border-radius: 20px;
+  text-align: center;
   justify-content: center;
-  display: flex;
   align-items: center;
+  box-shadow: 13px 13px 18px #040d1b, -13px -13px 19px #122746,
+    inset 13px 13px 18px #040d1b, inset -13px -13px 19px #122746;
+}
+
+.pic {
+  height: 400px;
+  margin: 50px;
+  border-radius: 20px;
+  transition: transform 0.8s;
+}
+.pic:hover {
+  height: 400px;
+  margin: 50px;
+  border-radius: 20px;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
