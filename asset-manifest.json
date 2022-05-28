@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Full-Stack-Developer/static/css/main.6a206575.css",
-    "main.js": "/Full-Stack-Developer/static/js/main.d62ecfad.js",
+    "main.css": "/Full-Stack-Developer/static/css/main.cde40522.css",
+    "main.js": "/Full-Stack-Developer/static/js/main.76107e00.js",
+    "static/media/JesseMcKinney.pdf": "/Full-Stack-Developer/static/media/JesseMcKinney.6224dfd146bdb8809060.pdf",
+    "static/media/kurz.webp": "/Full-Stack-Developer/static/media/kurz.bb3d0560157344998fbf.webp",
+    "static/media/chef.jpg": "/Full-Stack-Developer/static/media/chef.8cf27014fa9666a154ec.jpg",
     "index.html": "/Full-Stack-Developer/index.html",
-    "main.6a206575.css.map": "/Full-Stack-Developer/static/css/main.6a206575.css.map",
-    "main.d62ecfad.js.map": "/Full-Stack-Developer/static/js/main.d62ecfad.js.map"
+    "main.cde40522.css.map": "/Full-Stack-Developer/static/css/main.cde40522.css.map",
+    "main.76107e00.js.map": "/Full-Stack-Developer/static/js/main.76107e00.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a206575.css",
-    "static/js/main.d62ecfad.js"
+    "static/css/main.cde40522.css",
+    "static/js/main.76107e00.js"
   ]
 }
