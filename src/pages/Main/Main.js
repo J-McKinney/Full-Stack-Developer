@@ -11,10 +11,10 @@ import Style from "./Main.module.css";
 import "./animatedBG.css";
 
 const navlinks = [
-  { name: "About", to: "#/about" },
-  { name: "Experience", to: "#/experience" },
-  { name: "Work", to: "#/work" },
-  { name: "Contact", to: "#/contact" },
+  { name: "About", to: "#/About" },
+  { name: "Experience", to: "#/Experience" },
+  { name: "Work", to: "#/Work" },
+  { name: "Contact", to: "#/Contact" },
 ];
 
 const duration1 = 300;
@@ -112,14 +112,24 @@ const Main = () => {
                 ...transitionStyles[state],
               }}
             >
-              <Hero />
+              <section id="/Hero">
+                <Hero />
+              </section>
             </div>
           )}
         </Transition>
-        <About />
-        <Experience />
-        <Work />
-        <Footer />
+        <section id="/About">
+          <About />
+        </section>
+        <section id="/Experience">
+          <Experience />
+        </section>
+        <section id="/Work">
+          <Work />
+        </section>
+        <section id="/Contact">
+          <Footer />
+        </section>
       </div>
     </>
   );

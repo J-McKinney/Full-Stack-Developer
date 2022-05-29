@@ -1,4 +1,5 @@
 .aboutWrapper {
+  margin-top: 30vh;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -42,7 +43,7 @@
 
 .title {
   color: #5ce9cb;
-  -webkit-text-stroke: 1.5px black;
+  -webkit-text-stroke: 1px black;
 }
 
 .hr {
@@ -52,13 +53,14 @@
 
 .cardText {
   padding: 5px 0;
-  color: #8892b0;
+  color: #a3abc2;
 }
 
 .myPicCol {
   margin-left: 10px;
   min-height: auto;
   border-radius: 20px;
+  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -71,6 +73,9 @@
   margin: 50px;
   border-radius: 20px;
   transition: transform 0.8s;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .pic:hover {
   height: 400px;

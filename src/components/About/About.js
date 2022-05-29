@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Chef from "../../img/chef.jpg";
+import Pic from "../../img/Jesse.jpg";
+// import Pic from "../../img/MeDuh.JPG";
 import Style from "./About.module.css";
 
 const About = () => {
@@ -16,8 +17,8 @@ const About = () => {
                     <h2 className={Style.title}>About Me</h2>
                     <hr className={Style.hr} />
                   </Card.Title>
-                  <Card.Text className={Style.cardText}>
-                    <h5>
+                  <h5>
+                    <Card.Text className={Style.cardText}>
                       &nbsp; I have a serious passion for UI effects, animations
                       and creating intuitive, dynamic user experiences. I thrive
                       on bringing ideas to life and delivering eye-catching
@@ -28,8 +29,8 @@ const About = () => {
                       single-page apps to something more experimental. I help
                       awesome people to build ambitious yet accessible web
                       projects. The wilder, the better.
-                    </h5>
-                  </Card.Text>
+                    </Card.Text>
+                  </h5>
                 </Card.Body>
               </Card>
             </Col>
@@ -38,7 +39,7 @@ const About = () => {
             </Col> */}
             {/* ///////////////////////////////////////////////////////////// */}
             <Col className={Style.myPicCol}>
-              <img className={Style.pic} src={Chef} alt="chef" />
+              <img className={Style.pic} src={Pic} alt="Jesse McKinney" />
             </Col>
           </Row>
         </Container>

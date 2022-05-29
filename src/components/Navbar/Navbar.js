@@ -90,7 +90,7 @@ const StyledNavbar = styled.div`
   font-weight: bolder;
   background: #0a192f;
   z-index: 1000;
-  box-shadow: 13px 13px 18px #040d1b, -13px -13px 15px #122746;
+  box-shadow: 13px 13px 18px #040d1b, -13px -13px 15px #122746, inset 13px 13px 18px #040d1b, inset -13px -13px 19px #122746;
   .links {
     margin-right: 1rem;
     font-weight: normal;

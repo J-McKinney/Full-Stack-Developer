@@ -6,7 +6,6 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  padding: 50px;
   background-color: #0a192f;
   z-index: 1000;
 }
@@ -45,5 +44,5 @@
 .exert {
   color: #ffffff;
   margin-top: 20px;
-  width: 50%;
+  width: 70%;
 }
