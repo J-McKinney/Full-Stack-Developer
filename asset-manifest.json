@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Full-Stack-Developer/static/css/main.cde40522.css",
-    "main.js": "/Full-Stack-Developer/static/js/main.76107e00.js",
+    "main.css": "/Full-Stack-Developer/static/css/main.9ec461e4.css",
+    "main.js": "/Full-Stack-Developer/static/js/main.5add726d.js",
+    "static/media/design.jpg": "/Full-Stack-Developer/static/media/design.2176ee26951ca36462ca.jpg",
+    "static/media/launch.jpg": "/Full-Stack-Developer/static/media/launch.d5a72e72693152b8b3ba.jpg",
     "static/media/JesseMcKinney.pdf": "/Full-Stack-Developer/static/media/JesseMcKinney.6224dfd146bdb8809060.pdf",
+    "static/media/Jesse.jpg": "/Full-Stack-Developer/static/media/Jesse.9e613fc8476ce9eddcf5.jpg",
     "static/media/kurz.webp": "/Full-Stack-Developer/static/media/kurz.bb3d0560157344998fbf.webp",
-    "static/media/chef.jpg": "/Full-Stack-Developer/static/media/chef.8cf27014fa9666a154ec.jpg",
     "index.html": "/Full-Stack-Developer/index.html",
-    "main.cde40522.css.map": "/Full-Stack-Developer/static/css/main.cde40522.css.map",
-    "main.76107e00.js.map": "/Full-Stack-Developer/static/js/main.76107e00.js.map"
+    "main.9ec461e4.css.map": "/Full-Stack-Developer/static/css/main.9ec461e4.css.map",
+    "main.5add726d.js.map": "/Full-Stack-Developer/static/js/main.5add726d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cde40522.css",
-    "static/js/main.76107e00.js"
+    "static/css/main.9ec461e4.css",
+    "static/js/main.5add726d.js"
   ]
 }
