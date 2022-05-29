@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Design from "../../img/design.jpg";
-// import STEM from "../../img/stem.jpg"
-// import Code from "../../img/code.jpg";
 import Launch from "../../img/launch.jpg";
 import Style from "./Work.module.css";
 
@@ -13,6 +11,15 @@ const Work = () => {
         <Container className={Style.workContainer}>
           <Container>
             <Row className={Style.workRow}>
+              <Card className={Style.topCard}>
+                <Card.Body>
+                  <Card.Title className={Style.topCardTitle}>
+                    <h2 className={Style.topTitle}>Some Things I've Built</h2>
+                    <hr className={Style.topHr} />
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+
               <Col className={Style.workCol}>
                 <div className={Style.card}>
                   <div className={Style.imgBox}>
@@ -29,24 +36,23 @@ const Work = () => {
                   </div>
                 </div>
               </Col>
+
               <Col className={Style.workCol}>
-                <Card
-                  style={{
-                    margin: "60px 0px 0px 60px",
-                    background: "transparent",
-                    color: "white",
-                    width: "90%",
-                    borderStyle: "none"
-                  }}
-                >
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle>Card Subtitle</Card.Subtitle>
-                    <Card.Text>
+                <Card className={Style.cardWrapper}>
+                  <Card.Body className={Style.cardBody}>
+                    <Card.Title className={Style.cardTitle}>
+                      Card Title
+                    </Card.Title>
+                    <Card.Subtitle className={Style.cardSubTitle}>
+                      Card Subtitle
+                    </Card.Subtitle>
+                    <Card.Text className={Style.cardText}>
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link className={Style.cardLink} href="#">
+                      Card Link
+                    </Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -54,7 +60,27 @@ const Work = () => {
 
             <Row className={Style.workRow}>
               <Col className={Style.workCol}>
-                <div className={Style.card}>
+                <Card className={Style.cardWrapper1}>
+                  <Card.Body className={Style.cardBody}>
+                    <Card.Title className={Style.cardTitle}>
+                      Card Title 1
+                    </Card.Title>
+                    <Card.Subtitle className={Style.cardSubTitle}>
+                      Card Subtitle 1
+                    </Card.Subtitle>
+                    <Card.Text className={Style.cardText}>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content. 1
+                    </Card.Text>
+                    <Card.Link className={Style.cardLink} href="#">
+                      Card Link 1
+                    </Card.Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+              <Col className={Style.workCol}>
+                <div className={Style.card1}>
                   <div className={Style.imgBox}>
                     <img id={Style.img} src={Design} alt="alt" />
                     <img id={Style.img} src={Launch} alt="alt" />
@@ -62,15 +88,14 @@ const Work = () => {
                   <div className={Style.details}>
                     <div className={Style.content}>
                       <h2 className={Style.title}>
-                        Someone <br />
-                        <span className={Style.exert}>Graphic</span>
+                        Someone Famous <br />
+                        <span className={Style.exert}>Graphic Designer</span>
                       </h2>
                     </div>
                   </div>
                 </div>
               </Col>
             </Row>
-
           </Container>
         </Container>
 

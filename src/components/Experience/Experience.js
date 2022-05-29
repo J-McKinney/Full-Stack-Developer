@@ -212,6 +212,11 @@ function Experience() {
                             Built and shaped while leveraging third-party and
                             internal APIs.
                           </li>
+                          <li className={Style.list}>
+                            Username: admin
+                            <br />
+                            Password: 1234
+                          </li>
                         </Card.Text>
                       </ul>
                       <Card.Link
@@ -228,14 +233,6 @@ function Experience() {
               </Row>
             </Col>
           </Row>
-
-          {/* <Row className={Style.experienceRow}>
-            <Col className={Style.experienceCol}>Col1</Col>
-            <Col className={Style.experienceCol}>Col2</Col>
-            <Col className={Style.experienceCol}>Col3</Col>
-          </Row> */}
-
-          {/* <Row className={Style.experienceRow}>Row</Row> */}
         </Container>
       </div>
     </>
