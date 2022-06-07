@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Pic from "../../img/Jesse.jpg";
-// import Pic from "../../img/MeDuh.JPG";
 import Style from "./About.module.css";
 
 const About = () => {
@@ -34,10 +33,6 @@ const About = () => {
                 </Card.Body>
               </Card>
             </Col>
-            {/* <Col>
-              <h3>About Me</h3>
-            </Col> */}
-            {/* ///////////////////////////////////////////////////////////// */}
             <Col className={Style.myPicCol}>
               <img className={Style.pic} src={Pic} alt="Jesse McKinney" />
             </Col>

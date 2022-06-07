@@ -46,11 +46,12 @@
   width: 350px;
   height: 350px;
   margin: 60px 0px 60px 120px;
-  background: #fff;
+  background: #0f2342;
   transform-style: preserve-3d;
   transform: perspective(1000px);
   box-shadow: 30px 30px 82px #040d1b, -30px -30px 59px #122746;
   transition: 1.25s;
+  border-radius: 10px;
 }
 
 .card1 {
@@ -58,26 +59,27 @@
   width: 350px;
   height: 350px;
   margin: 60px 0px 60px 120px;
-  background: #fff;
+  background: #0f2342;
   transform-style: preserve-3d;
   transform: perspective(1000px);
   box-shadow: 30px 30px 82px #040d1b, -30px -30px 59px #122746;
   transition: 1.25s;
+  border-radius: 10px;
 }
 
 .card:hover {
   transform: translateX(50%);
 }
 .card1:hover {
-  transform: translateX(50%);
+  transform: translateX(-50%);
 }
 
 .card:hover .imgBox {
   transform: rotateY(-180deg);
 }
 
-.card1:hover .imgBox {
-  transform: rotateY(-180deg);
+.card1:hover .imgBox1 {
+  transform: rotateY(180deg);
 }
 
 .imgBox {
@@ -89,6 +91,18 @@
   transform-style: preserve-3d;
   background: #000;
   transition: 1.5s;
+  border-radius: 10px;
+}
+.imgBox1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: right;
+  transform-style: preserve-3d;
+  background: #000;
+  transition: 1.5s;
+  border-radius: 10px;
 }
 
 #img {
@@ -100,14 +114,15 @@
   object-fit: cover;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .card .imgBox img:nth-child(2) {
   transform: rotateY(-180deg);
 }
 
-.card1 .imgBox img:nth-child(2) {
-  transform: rotateY(-180deg);
+.card1 .imgBox1 img:nth-child(2) {
+  transform: rotateY(180deg);
 }
 
 .details {
@@ -116,13 +131,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 20px;
   display: flex;
   justify-content: center;
 }
 
 .content {
   display: flex;
+  align-content: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -130,11 +146,11 @@
   text-align: center;
   font-weight: 700;
   line-height: 1em;
-  color: #000;
+  color: #8892b0;
 }
 
 .exert {
-  color: #e21212;
+  color: #5ce9cb;
   font-size: 0.8em;
 }
 
@@ -152,6 +168,81 @@
   color: #fff;
   width: 70%;
   border-style: none;
+}
+
+.cardTitle {
+  font-weight: 700;
+  color: #5ce9cb;
+}
+
+.cardText {
+  font-weight: 700;
+  color: #8892b0;
+  margin-bottom: 40px;
+}
+
+.modal {
+  text-align: center;
+}
+
+.workBtn {
+  color: #5ce9cb !important;
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+  border: none !important;
+  padding: 20px 50px !important;
+  background: linear-gradient(145deg, #0b1a31, #091629) !important;
+  box-shadow: 5px 5px 10px #040a12, -5px -5px 10px #10264a !important;
+}
+
+.workBtn:active {
+  border: none !important;
+}
+
+.workBtn:focus {
+  border: none !important;
+}
+
+.workBtn:hover {
+  border: none !important;
+  color: #0a182e !important;
+  background: #5ce9cb !important;
+  transition: 1s !important;
+}
+
+.workBtn:focus {
+  border: none !important;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.bottomCard {
+  background-color: #0a192f;
+  border: none;
+  padding: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: #5ce9cb;
+  font-weight: 700;
+  line-height: 1em;
+  font-size: 1.5em;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.link:hover {
+  color: #0a192f;
+  background: #00ffc8;
+  transition: 0.4s;
 }
 
 @media only screen and (max-width: 1400px) {

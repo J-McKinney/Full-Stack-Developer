@@ -108,3 +108,37 @@
   background: #00ffc8;
   transition: 0.4s;
 }
+
+
+.modal {
+  text-align: center;
+}
+
+.expBtn {
+  color: #5ce9cb !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  border: none !important;
+  padding: 15px 40px !important;
+  background: linear-gradient(145deg, #0b1a31, #091629) !important;
+  box-shadow: 5px 5px 10px #040a12, -5px -5px 10px #10264a !important;
+}
+
+.expBtn:active {
+  border: none !important;
+}
+
+.expBtn:focus {
+  border: none !important;
+}
+
+.expBtn:hover {
+  border: none !important;
+  color: #0a182e !important;
+  background: #5ce9cb !important;
+  transition: 1s !important;
+}
+
+.expBtn:focus {
+  border: none !important;
+}

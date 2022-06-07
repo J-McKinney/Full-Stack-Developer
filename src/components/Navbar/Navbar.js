@@ -90,26 +90,25 @@ const StyledNavbar = styled.div`
   font-weight: bolder;
   background: #0a192f;
   z-index: 1000;
-  box-shadow: 13px 13px 18px #040d1b, -13px -13px 15px #122746, inset 13px 13px 18px #040d1b, inset -13px -13px 19px #122746;
+  box-shadow: 13px 13px 18px #040d1b, -13px -13px 15px #122746,
+    inset 13px 13px 18px #040d1b, inset -13px -13px 19px #122746;
   .links {
     margin-right: 1rem;
     font-weight: normal;
     color: #5ce9cb;
     text-decoration: none;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 7px;
+  }
+  .links:hover {
+    color: #a9b5d8;
+    background: #5ce9cb34;
   }
   .pdf {
     margin-right: 1rem;
     font-weight: normal;
     color: white;
-    text-decoration: none;
-  }
-  .brand {
-    position: absolute;
-    left 6rem;
-    font-style: italic;
-    font-weight: bold;
-    color: white;
-    font-size: 1.25rem;
     text-decoration: none;
   }
   .logo {

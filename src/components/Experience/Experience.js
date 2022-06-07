@@ -1,8 +1,18 @@
-import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import MyModal from "../MyModal/MyModal";
+import p1 from "../../img/Naylor/Job-Position-Details.png";
+import p2 from "../../img/Naylor/Job-Location-Details.png";
+import p3 from "../../img/Naylor/Job-Applicant-Routing-Details.png";
+import p4 from "../../img/Naylor/Job-Category-Details.png";
+import p5 from "../../img/Naylor/Job-Branding-Details.png";
+import p6 from "../../img/Naylor/Enhanced-Job-Features.png";
+import p7 from "../../img/Naylor/Select-Payment.png";
+import NaylorLogo from "../../img/NaylorLogo.jpg";
 import Style from "./Experience.module.css";
 
 function Experience() {
+  const [modal, setModal] = useState(false);
   var naylor = document.getElementById("naylorCard");
   var mvc = document.getElementById("mvcCard");
   var srm = document.getElementById("srmCard");
@@ -101,6 +111,33 @@ function Experience() {
                           </li>
                         </Card.Text>
                       </ul>
+                      <Button
+                        className={Style.expBtn}
+                        onClick={() => setModal(true)}
+                      >
+                        See More
+                      </Button>
+                      <MyModal
+                        className={Style.modal}
+                        headerImg={NaylorLogo}
+                        headerImgStyle={{ height: "200px" }}
+                        imgOne={p1}
+                        imgOneStyle={{ height: "100vh" }}
+                        imgTwo={p2}
+                        imgTwoStyle={{ height: "100vh" }}
+                        imgThree={p3}
+                        imgThreeStyle={{ height: "100vh" }}
+                        imgFour={p4}
+                        imgFourStyle={{ height: "100vh" }}
+                        imgFive={p5}
+                        imgFiveStyle={{ height: "100vh" }}
+                        imgSix={p6}
+                        imgSixStyle={{ height: "100vh" }}
+                        imgSeven={p7}
+                        imgSevenStyle={{ height: "100vh" }}
+                        show={modal}
+                        onHide={() => setModal(false)}
+                      />
                     </Card.Body>
                   </Card>
                   <Card
