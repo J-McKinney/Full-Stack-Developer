@@ -1,18 +1,31 @@
 {
   "files": {
-    "main.css": "/Full-Stack-Developer/static/css/main.9b66a197.css",
-    "main.js": "/Full-Stack-Developer/static/js/main.7e043048.js",
-    "static/media/design.jpg": "/Full-Stack-Developer/static/media/design.2176ee26951ca36462ca.jpg",
-    "static/media/launch.jpg": "/Full-Stack-Developer/static/media/launch.d5a72e72693152b8b3ba.jpg",
+    "main.css": "/Full-Stack-Developer/static/css/main.dd20735a.css",
+    "main.js": "/Full-Stack-Developer/static/js/main.fbecb7c7.js",
+    "static/media/golfSil.jpg": "/Full-Stack-Developer/static/media/golfSil.d8e7d637840146f441fd.jpg",
+    "static/media/mic.png": "/Full-Stack-Developer/static/media/mic.fc624673f37e5a73cc98.png",
+    "static/media/golfHole.jpg": "/Full-Stack-Developer/static/media/golfHole.44c5fce717cf4811ab3b.jpg",
+    "static/media/Forecast.png": "/Full-Stack-Developer/static/media/Forecast.3181ad84be278bbac218.png",
+    "static/media/Select-Payment.png": "/Full-Stack-Developer/static/media/Select-Payment.52cb8e00ce28b4bb6f89.png",
+    "static/media/Enhanced-Job-Features.png": "/Full-Stack-Developer/static/media/Enhanced-Job-Features.683c911d1f44bf81dd37.png",
+    "static/media/Fore1.png": "/Full-Stack-Developer/static/media/Fore1.3034867bc14a44fe1825.png",
+    "static/media/Job-Location-Details.png": "/Full-Stack-Developer/static/media/Job-Location-Details.59db2fac1085bbcc06e5.png",
+    "static/media/Job-Position-Details.png": "/Full-Stack-Developer/static/media/Job-Position-Details.e6f407fb6fe70794ce5a.png",
+    "static/media/Job-Applicant-Routing-Details.png": "/Full-Stack-Developer/static/media/Job-Applicant-Routing-Details.160181d45cb057de1eee.png",
+    "static/media/Job-Branding-Details.png": "/Full-Stack-Developer/static/media/Job-Branding-Details.195bf65465833402c2d0.png",
+    "static/media/Job-Category-Details.png": "/Full-Stack-Developer/static/media/Job-Category-Details.dfd8f672c083ceb27aa7.png",
+    "static/media/NaylorLogo.jpg": "/Full-Stack-Developer/static/media/NaylorLogo.f090a2b098c57eff3581.jpg",
+    "static/media/sing.jpg": "/Full-Stack-Developer/static/media/sing.ead3b40def453a19ec08.jpg",
     "static/media/JesseMcKinney.pdf": "/Full-Stack-Developer/static/media/JesseMcKinney.6224dfd146bdb8809060.pdf",
+    "static/media/Similtune.png": "/Full-Stack-Developer/static/media/Similtune.02b14f0be0bc56d90bd2.png",
     "static/media/Jesse.jpg": "/Full-Stack-Developer/static/media/Jesse.9e613fc8476ce9eddcf5.jpg",
     "static/media/kurz.webp": "/Full-Stack-Developer/static/media/kurz.bb3d0560157344998fbf.webp",
     "index.html": "/Full-Stack-Developer/index.html",
-    "main.9b66a197.css.map": "/Full-Stack-Developer/static/css/main.9b66a197.css.map",
-    "main.7e043048.js.map": "/Full-Stack-Developer/static/js/main.7e043048.js.map"
+    "main.dd20735a.css.map": "/Full-Stack-Developer/static/css/main.dd20735a.css.map",
+    "main.fbecb7c7.js.map": "/Full-Stack-Developer/static/js/main.fbecb7c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b66a197.css",
-    "static/js/main.7e043048.js"
+    "static/css/main.dd20735a.css",
+    "static/js/main.fbecb7c7.js"
   ]
 }
