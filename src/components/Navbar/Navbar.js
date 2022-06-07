@@ -50,7 +50,7 @@ class Navbar extends Component {
     return (
       <Transition>
         <StyledNavbar className={this.state.show ? "active" : "hidden"}>
-          <a className="logo" href="/Full-Stack-Developer" alt="logo">
+          <a className="logo" href="#/Hero" alt="logo">
             <img className="logo" src={kurz} alt="Home" />
           </a>
           <nav>

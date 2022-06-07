@@ -8,7 +8,11 @@ const Contact = () => {
       <div className={Style.contactWrapper}>
         <Container className={Style.contactContainer}>
           <Row className={Style.contactRow}>
-            <Col className={Style.contactCol}>Contact Section</Col>
+            {/* <Col className={Style.contactCol}>Contact Section</Col> */}
+            <Row className={Style.contactRow}>Name</Row>
+            <Row className={Style.contactRow}>Email Address</Row>
+            <Row className={Style.contactRow}>Title</Row>
+            <Row className={Style.contactRow}>Message</Row>
           </Row>
           <Row className={Style.loaderRow}>
             <Col className={Style.loaderCol}>
