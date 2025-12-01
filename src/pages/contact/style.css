@@ -1,8 +1,8 @@
 .contact__form .form-control {
     padding: 1.375rem 0.75rem;
     line-height: 1.5;
-    color: var(--text-color);
-    background-color: #fff;
+    color: #000;
+    background-color: #fff !important;
     border-radius: 0 !important;
     border: 1px solid var(--secondary-color);
 }

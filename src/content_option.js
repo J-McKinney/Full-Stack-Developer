@@ -1,3 +1,16 @@
+import homepage from '../src/assets/homepage.jpeg';
+import etrade from '../src/assets/etradeLogo.png';
+import limerent from '../src/assets/limerent.jpg';
+import naylor from '../src/assets/naylorLogo.jpg';
+import mvc from '../src/assets/mvc.svg';
+import gig from '../src/assets/GIG.webp';
+import srm from '../src/assets/srm.jpg';
+
+const email = process.env.REACT_APP_EMAIL;
+const service_id = process.env.REACT_APP_SERVICE_ID;
+const template_id = process.env.REACT_APP_TEMPLATE_ID;
+const user_id = process.env.REACT_APP_USER_ID;
+
 const logoText = "JESSE";
 const meta = {
     title: "Jesse McKinney",
@@ -12,7 +25,7 @@ const introData = {
         third: "I develop web applications",
     },
     description: "I am a passionate full stack developer with over 6 years of experience in building dynamic web applications",
-    your_img_url: "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg",
+    your_img_url: homepage,
 };
 
 const aboutData = {
@@ -105,76 +118,81 @@ const servicesData = [
 
 const portfolioData = [
     {
-        img: "https://picsum.photos/400",
-        description: "The wisdom of life consists 111",
-        link: "#",
+        img: etrade,
+        title: "Frontend Developer",
+        description: "E*Trade from Morgan Stanley redesign project",
+        link: "https://us.etrade.com/home",
     },
     {
-        img: "https://picsum.photos/400/800",
-        description: "The wisdom of life consists 222",
-        link: "#",
+        img: mvc,
+        title: "Full Stack Developer",
+        description: "Marietta Vet Clinic - Pet Travel Services",
+        link: "https://www.mariettavetclinic.com",
+    },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists 333",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/600",
+    //     description: "The wisdom of life consists 444",
+    //     link: "#",
+    // },
+    {
+        img: limerent,
+        title: "Lead Web Developer",
+        description: "Limerent - Digital Marketing Agency",
+        link: "https://getlimerent.com",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists 333",
-        link: "#",
+        img: gig,
+        title: "Full Stack Developer",
+        description: "SLA Labs - SaaS Application Development",
+        link: "https://slalabs.org/gigpilot",
+    },
+    // {
+    //     img: "https://picsum.photos/400/600",
+    //     description: "The wisdom of life consists 777",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400",
+    //     description: "The wisdom of life consists 888",
+    //     link: "#",
+    // },
+    {
+        img: naylor,
+        title: "UI/Node Developer",
+        description: "Naylor Association Solutions - Products and Services",
+        link: "https://www.naylor.com",
     },
     {
-        img: "https://picsum.photos/400/600",
-        description: "The wisdom of life consists 444",
-        link: "#",
+        img: srm,
+        title: "Full Stack Developer",
+        description: "Southern Restoration Maintenance Inc. - Facility Maintenance Services",
+        link: "https://j-mckinney.github.io/srm-inc/home",
     },
-    {
-        img: "https://picsum.photos/400/400",
-        description: "The wisdom of life consists 555",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700",
-        description: "The wisdom of life consists 666",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600",
-        description: "The wisdom of life consists 777",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400",
-        description: "The wisdom of life consists 888",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists 999",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550",
-        description: "The wisdom of life consists 1010",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/400",
-        description: "The wisdom of life consists 1111",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700",
-        description: "The wisdom of life consists 1212",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/400",
+    //     description: "The wisdom of life consists 1111",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700",
+    //     description: "The wisdom of life consists 1212",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "jessemckinney513@gmail.com",
+    // https://www.emailjs.com
+    YOUR_EMAIL: email,
     YOUR_FONE: "See Resume",
     description: "Please feel free to reach out to me and I will get back to you as soon as possible.",
-    // create an emailjs.com account
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: service_id,
+    YOUR_TEMPLATE_ID: template_id,
+    YOUR_USER_ID: user_id,
 };
 
 export {

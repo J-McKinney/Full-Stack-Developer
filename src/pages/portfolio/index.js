@@ -23,16 +23,21 @@ export const Portfolio = () => {
                     {portfolioData.map((data, i) => {
                         return (
                             <div key={i} className="po_item">
-                                <img src={data.img} alt="" />
+                                <img src={data.img} alt={data.description} />
                                 <div className="content">
+                                    <p>{data.title}</p>
                                     <p>{data.description}</p>
-                                    <a href={data.link}>view project</a>
+                                    <a href={data.link} target="_blank" rel="noopener noreferrer">Visit Website</a>
+                                    <p>{""}</p>
+                                    {/* The href below will need to change to the modal pop up */}
+                                    {/* <a href={data.link} target="_blank" rel="noopener noreferrer">See Work</a> */}
                                 </div>
                             </div>
                         );
                     })}
                 </div>
             </Container>
+            <br />
         </HelmetProvider>
     );
 };
