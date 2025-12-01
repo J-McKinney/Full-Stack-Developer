@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/Full-Stack-Developer/static/css/main.6ee79ee6.css",
-    "main.js": "/Full-Stack-Developer/static/js/main.8f8ce79f.js",
+    "main.css": "/Full-Stack-Developer/static/css/main.b21dcc56.css",
+    "main.js": "/Full-Stack-Developer/static/js/main.b120abe9.js",
+    "static/media/homepage.jpeg": "/Full-Stack-Developer/static/media/homepage.c881cc10edf6592f01b4.jpeg",
+    "static/media/naylorLogo.jpg": "/Full-Stack-Developer/static/media/naylorLogo.f090a2b098c57eff3581.jpg",
+    "static/media/mvc.svg": "/Full-Stack-Developer/static/media/mvc.79e35fb91fc45f3b954b6d943fa97ee1.svg",
+    "static/media/GIG.webp": "/Full-Stack-Developer/static/media/GIG.e7b57cc0d4454f632315.webp",
+    "static/media/etradeLogo.png": "/Full-Stack-Developer/static/media/etradeLogo.e9b0ad8188245105fb6b.png",
     "index.html": "/Full-Stack-Developer/index.html"
   },
   "entrypoints": [
-    "static/css/main.6ee79ee6.css",
-    "static/js/main.8f8ce79f.js"
+    "static/css/main.b21dcc56.css",
+    "static/js/main.b120abe9.js"
   ]
 }
