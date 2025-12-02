@@ -37,9 +37,7 @@ export default function App() {
 // import { BrowserRouter as Router, useLocation, Route, Routes } from "react-router-dom";
 // // import { HashRouter as Router, useLocation, Route, Routes  } from "react-router-dom";
 // import withRouter from "../hooks/withRouter";
-
 // import Headermain from "../header";
-
 // import { Home } from "../pages/home";
 // import { Portfolio } from "../pages/portfolio";
 // import { ContactUs } from "../pages/contact";
