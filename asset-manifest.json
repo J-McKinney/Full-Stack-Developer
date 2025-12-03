@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Full-Stack-Developer/static/css/main.5c0e1f2b.css",
-    "main.js": "/Full-Stack-Developer/static/js/main.4eabba8f.js",
+    "main.css": "/Full-Stack-Developer/static/css/main.e67dc5ef.css",
+    "main.js": "/Full-Stack-Developer/static/js/main.0791766b.js",
     "static/media/homepage.jpeg": "/Full-Stack-Developer/static/media/homepage.c881cc10edf6592f01b4.jpeg",
     "static/media/naylorLogo.jpg": "/Full-Stack-Developer/static/media/naylorLogo.f090a2b098c57eff3581.jpg",
     "static/media/mvc.svg": "/Full-Stack-Developer/static/media/mvc.79e35fb91fc45f3b954b6d943fa97ee1.svg",
@@ -10,7 +10,7 @@
     "index.html": "/Full-Stack-Developer/index.html"
   },
   "entrypoints": [
-    "static/css/main.5c0e1f2b.css",
-    "static/js/main.4eabba8f.js"
+    "static/css/main.e67dc5ef.css",
+    "static/js/main.0791766b.js"
   ]
 }
